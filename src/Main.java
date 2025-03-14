@@ -47,7 +47,7 @@ public class Main {
                 System.out.println("프로그램을 종료합니다."); // 0번을 눌렀을 경우에 키오스크가 종료되도록 한다.
                 break;
             default:
-                System.out.println("잘못선택하셨습니다. 다시 선택해주세요."); // 마지막에 else문을 넣어 거짓일 경우 SHAKESHACK MENU로 다시 이동하게 break문은 뺀다.
+                System.out.println("잘못선택하셨습니다. 다시 선택해주세요.");
 
         }
 
