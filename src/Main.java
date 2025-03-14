@@ -26,7 +26,7 @@ public class Main {
         int choice = scanner.nextInt();
 
 
-        switch (choice) { // 조건문을 넣어 참과 거짓을 통하여 다음 선택지로 이동할수 있게 만들었다.
+        switch (choice) {
             case 1:
                 System.out.println(menuItems.get(0));
                 System.out.print("수량: ");
@@ -36,11 +36,11 @@ public class Main {
                 System.out.print("수량: ");
                 break;
             case 3:
-                System.out.println(menuItems.get(0));
+                System.out.println(menuItems.get(2));
                 System.out.print("수량: ");
                 break;
             case 4:
-                System.out.println(menuItems.get(0));
+                System.out.println(menuItems.get(3));
                 System.out.print("수량: ");
                 break;
             case 0:
